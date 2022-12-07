@@ -64,6 +64,11 @@ a{
   height: auto;
   padding: 3px 15px;
   font-size: 14px;
+  transition: ease-in-out 0.3s;
+}
+.header-area .classynav .menu-btnarea ul li a:hover{
+  background-color: #147335;
+  color: #fff !important;
 }
 .menu-btnarea ul li a{
   color: #FFF;
@@ -456,4 +461,13 @@ footer{
 }
 .btn-readmore-arrow:hover{
   color: rgba(20, 115, 53, 0.6) !important;
+}
+.partners-slider a{
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+.partners-slider a h3{
+  font-size: 16px;
+  padding-top: 10px;
 }
