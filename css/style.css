@@ -274,7 +274,7 @@ footer{
   z-index: -9;
 }
 .how-to-donate .owl-carousel .owl-stage{
-  padding-top: 2rem;
+  padding-top: 0rem;
 }
 .how-to-donate .owl-carousel.owl-drag .owl-item:nth-child(odd) .steps span{
   margin-top: -1.5rem;
@@ -397,4 +397,28 @@ footer{
   width: 100%;
   float: left;
   margin-left: 33%;
+}
+.card{
+  border-color: #BF1F1F;
+  background: transparent;
+  padding: 2rem 2rem 0;
+  border-radius: 20px;
+  min-height: 300px;
+}
+.card .icon{
+  width: 50px;
+  margin: 1.5rem 0;
+}
+.donate .owl-stage-outer{
+  padding: 15px;
+  overflow: visible !important;
+}
+.donate .owl-carousel .owl-stage-outer{
+  overflow: visible !important;
+}
+.donation-progress .progress-bar{
+  background-color: rgba(20, 115, 53, 0.6);
+}
+.donation-progress{
+  border-radius: 20px !important;
 }

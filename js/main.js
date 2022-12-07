@@ -124,5 +124,28 @@
         }
     });
 
+    $('.donate').owlCarousel({
+        loop: false,
+        nav: false,
+        mouseDrag: false,
+        dots: false,
+        autoplayHoverPause: true,
+        autoplay: true,
+        margin: 30,
+        responsive: {
+            0: {
+                items: 1,
+                loop: true,
+                dots: true,
+            },
+            576: {
+                items: 2,
+            },
+            1200: {
+                items: 2,
+            }
+        }
+    });
+
 })(window.jQuery);
 
