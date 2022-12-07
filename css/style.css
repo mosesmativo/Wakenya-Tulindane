@@ -337,6 +337,17 @@ footer{
   display: none;
 }
 
+@media screen and (min-width: 991px) and (max-width:1200px){
+  .header-area .classynav ul{
+    width: 80%;
+    padding-left: 0;
+  }
+  .header-area .classynav ul li a{
+    font-size: 15px;
+    padding: 0 20px;
+  }
+}
+
 @media screen and (max-width:991px){
   .classy-nav-container .mobile-donate {
     display: block;
