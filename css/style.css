@@ -127,3 +127,21 @@ footer{
 .how-to-donate h2{
   margin-bottom: 1rem;
 }
+.steps span{
+  background: #BF1F1F;
+  width: 42px;
+  height: 42px;
+  display: block;
+  border-radius: 100%;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 1.8rem;
+}
+.steps h3{
+  font-size: 20px;
+}
+.steps p{
+  font-size: 14px;
+}

@@ -25,7 +25,7 @@ $(window).on("scroll", function () {
 
 
 $('.to-donate').owlCarousel({
-    loop: true,
+    loop: false,
     nav: false,
     dots: false,
     autoplayHoverPause: true,
