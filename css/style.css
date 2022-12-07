@@ -29,8 +29,12 @@ body.compensate-for-scrollbar{overflow:hidden}.fancybox-active{height:auto}.fanc
     overflow-x: hidden;
   }
   h1, h2{
-    font-weight: 700;
-    font-family: 'DM Serif Display', serif;
+    letter-spacing: 1.8px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 129.6%;
   }
   p{
     font-weight: 400;
@@ -73,10 +77,6 @@ button{
 }
 .main-footer{
   background-color: #f8df0a;
-}
-h1, h2{
-  font-family: 'Gilmer';
-  font-weight: 800;
 }
 @media (min-width: 1400px){
   .container{
