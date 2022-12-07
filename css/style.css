@@ -29,7 +29,7 @@ body.compensate-for-scrollbar{overflow:hidden}.fancybox-active{height:auto}.fanc
     overflow-x: hidden;
   }
   h1, h2{
-    letter-spacing: 1.8px;
+    letter-spacing: 2px;
     font-family: 'DM Serif Display';
     font-style: normal;
     font-weight: 400;
@@ -40,6 +40,7 @@ body.compensate-for-scrollbar{overflow:hidden}.fancybox-active{height:auto}.fanc
     font-weight: 400;
     margin-bottom: 1.5rem;
     font-family: 'DM Sans';
+    letter-spacing: 0.5px;
   }
   a{
     font-family: 'DM Sans';
@@ -122,4 +123,7 @@ footer{
 }
 .last-footer ul li a img{
   width: 55px;
+}
+.how-to-donate h2{
+  margin-bottom: 1rem;
 }
