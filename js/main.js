@@ -24,12 +24,12 @@ $(window).on("scroll", function () {
 });
 
 
-$('.four-cards').owlCarousel({
+$('.to-donate').owlCarousel({
     loop: true,
     nav: false,
-    dots: true,
+    dots: false,
     autoplayHoverPause: true,
-    autoplay: true,
+    autoplay: false,
     margin: 30,
     responsive: {
         0: {
@@ -53,7 +53,7 @@ $('.four-cards').owlCarousel({
             dots: true,
         },
         1200: {
-            items: 4,
+            items: 3,
             nav: true,
             dots: true,
         }
