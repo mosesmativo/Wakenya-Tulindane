@@ -129,7 +129,8 @@ h1, h2{
 	margin-bottom:15px;
 }
 .pagesection p{
-	font-size:15px;
+	font-size:16px;
+  letter-spacing: 0.5px;
 }
 
 .teamsection{
@@ -337,7 +338,38 @@ footer{
 }
 
 @media screen and (max-width:991px){
-
+  .classy-nav-container .mobile-donate {
+    display: block;
+  }
+  .card{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    min-height: 200px !important;
+  }
+  .progress-number h3, .btn-readmore-arrow{
+    font-size: 14px !important;
+  }
+  .top-section h1{
+    font-size: 28px;
+  }
+  .hands-holder{
+    display: none !important;
+  }
+  .how-to-donate h2{
+    text-align: center;
+  }
+  .card .icon{
+    margin: 0 auto 1.5rem !important;
+  }
+  .donate .owl-stage-outer{
+    padding:0 !important;
+  }
+  .partner-holder{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
   .header-area .classynav ul{
     width: 100%;
     padding-left: 1rem;
