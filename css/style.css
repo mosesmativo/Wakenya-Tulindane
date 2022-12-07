@@ -417,8 +417,43 @@ footer{
   overflow: visible !important;
 }
 .donation-progress .progress-bar{
-  background-color: rgba(20, 115, 53, 0.6);
+  background-color: rgba(20, 115, 53, 0.6) !important;
+  border-radius: 20px;
 }
 .donation-progress{
   border-radius: 20px !important;
+  background: rgba(20, 115, 53, 0.2);
+}
+.progress-number  h3{
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.progress-number{
+  justify-content: space-between;
+}
+.progress-number span{
+  display: inline-block;
+  color: rgba(51, 51, 51, 1);
+  font-size: 14px;
+  padding-left: 6px;
+  font-weight: 300;
+}
+.zero-100 span{
+  font-size: 12px;
+  padding-top: 10px;
+}
+.btn-readmore-arrow{
+  color: #BF1F1F;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: ease-in-out 0.3s;
+}
+.btn-readmore-arrow i{
+  padding-left: 10px;;
+}
+.btn-readmore-arrow:hover{
+  color: rgba(20, 115, 53, 0.6) !important;
 }
