@@ -211,7 +211,9 @@ footer{
 .classy-nav-container .mobile-donate{
   display: none;
 }
+
 @media screen and (max-width:991px){
+
   .header-area .classynav ul{
     width: 100%;
     padding-left: 1rem;
