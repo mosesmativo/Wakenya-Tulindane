@@ -59,6 +59,32 @@ $('.to-donate').owlCarousel({
         }
     }
 });
+$('.partners-slider').owlCarousel({
+    loop: true,
+    nav: false,
+    dots: false,
+    autoplayHoverPause: true,
+    autoplay: true,
+    margin: 30,
+    responsive: {
+        0: {
+            items: 2,
+            dots: true,
+        },
+        576: {
+            items: 2,
+        },
+        768: {
+            items: 3,
+        },
+        992: {
+            items: 4,
+        },
+        1200: {
+            items: 5,
+        }
+    }
+});
 
 
 $('.full-banner').owlCarousel({
