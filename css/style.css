@@ -197,3 +197,50 @@ footer{
   width: 100%;
   z-index: 99;
 }
+.breakpoint-on .classynav>ul>li>a{
+  background-color: transparent;
+}
+.btn-readmore{
+  background-color: #BF1F1F;
+  border-radius: 30px;
+  height: auto;
+  padding: 3px 15px;
+  font-size: 14px !important;
+  color: #fff !important;
+}
+
+@media screen and (max-width:991px){
+  .header-area .classynav ul{
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .mainlogo img {
+    width: 50px;
+  }
+  .classy-navbar-toggler .navbarToggler span{
+    background-color: #bf1f1f;
+  }
+  .classycloseIcon{
+    display: none !important;
+  }
+  .classy-menu .menu-btnarea{
+    display: none;
+  }
+  .breakpoint-on .classynav ul li{
+    margin-bottom: 1rem;
+  }
+  .steps{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .how-to-line{
+    display: none;
+  }
+  .steps span{
+    margin: 1rem auto !important;
+  }
+  p,.steps p{
+    font-size: 14px;
+  }
+}
