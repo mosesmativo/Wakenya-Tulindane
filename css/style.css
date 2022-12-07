@@ -215,7 +215,9 @@ h1, h2{
     margin-top:0;
     font-weight:500;
 }
-
+.bg-grey{
+  background: #F5F5F5;
+}
 
 footer{
   background: #147335;
@@ -235,7 +237,6 @@ footer{
 }
 .last-footer ul li a img{
   width: 55px;
-<<<<<<< HEAD
 }
 .how-to-donate h2{
   margin-bottom: 1rem;
@@ -305,6 +306,15 @@ footer{
 .is-sticky {
   width: 100%;
   z-index: 99;
+
+  -webkit-animation: 0.95s ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 0.95s ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-box-shadow: 0 8px 20px 0 rgb(0 0 0 / 10%);
+  box-shadow: 0 8px 20px 0 rgb(0 0 0 / 10%);
+
 }
 .breakpoint-on .classynav>ul>li>a{
   background-color: transparent;
@@ -377,6 +387,14 @@ footer{
   footer{
     padding-bottom: 1.5rem;
   }
-=======
->>>>>>> e1e472048b5e91f3a2b426eb1ab2c8c6f29425a5
+}
+.hands-holder img{
+  max-width: 120%;
+}
+.hands-holder{
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left;
+  margin-left: 33%;
 }
